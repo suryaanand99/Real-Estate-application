@@ -1,0 +1,179 @@
+.back_img
+{
+   width: 100%;
+    height: 550px;
+    margin: 0px 0px;
+}
+.logo
+{
+    position: absolute;
+    top: 0px;
+    left: 5%;
+}
+.nav 
+{
+    
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.nav a
+{
+    text-decoration: none;
+    font-family:sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.content-align
+{
+    position: absolute;
+    top: 20%;
+    left:15%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.content
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 40%;
+}
+.content :first-child
+{
+    font-size: 35px;
+}
+#main
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    align-items: center;
+    width: 100%;
+}
+#main p
+{
+    width: 40%;
+    padding-right: 2%;
+}
+#main :first-child
+{
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-align: right;
+}
+#footer
+{
+    background-color: #0C0047;
+    height: 120px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer a 
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.form 
+{
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+     width: 400px;
+    height: 300px;
+     display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12,1,1,0.5);
+}
+.form-create
+{
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+     width: 500px;
+    height: 550px;
+     background-color: rgba(12,1,1,0.5);
+}
+.form-create-adiv
+{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.form-create a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 10%;
+}
+.form-create-div div
+{
+    margin-left: 5%;
+}
+.form-create .form-create-div
+{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.form div
+{
+    margin-bottom: 5%;
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="date"]
+{
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    width: 200px;
+}
+select
+{
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    width: 200px;
+}
+button
+{
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #30D941;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+#tcontent
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+#tcontent :first-child
+{
+    font-size: 30px;
+    text-align: center;
+}

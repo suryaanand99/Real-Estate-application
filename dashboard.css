@@ -1,0 +1,192 @@
+body
+{
+    background-image: url(back2.jpg);
+}
+.nav
+{
+    background-color: #0C0047;
+    height: 70px;
+    width: 100%;
+    font-family: serif;
+    font-size: 25px;
+    color: white;  
+    display: flex;
+    align-items: center;
+    
+}
+.nav a
+{
+    text-decoration: none;
+    color: white;
+}
+.hang-left :first-child
+{
+    width: 40px;
+    height: 40px;
+}
+.nav .hang-left
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding-left: 20px;
+    float: left;
+}
+.nav .hang-right
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    position: absolute;
+    right: 5%;
+    width: 300px;
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="date"],input[type="number"],input[type="file"]
+{
+    border-radius: 5px;
+    border: 0px solid black;
+    height: 30px;
+    width: 300px;
+}
+textarea
+{
+     border-radius: 5px;
+    border: 0px solid black;
+    width: 300px;
+}
+select
+{
+    border-radius: 5px;
+    border: 0px solid black;
+    height: 35px;
+    width: 300px;
+}
+button
+{ 
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #30D941;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+}
+#dash-body
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+}
+#dash-body #dash-body-first
+{
+  background-color: #0C0047;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#dash-body-first a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10%;
+    font-size: 20px;
+}
+.form-create
+{
+    color: black;
+    font-family: sans-serif;
+}
+.form-create-adiv
+{
+    
+    margin-bottom: 2%;
+}
+.form-create a
+{
+    text-decoration: none;
+    color: white;
+}
+.form-create-div div:last-child
+{
+    margin-left: 5%;
+}
+.form-create .form-create-div
+{
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.form div
+{
+    margin-bottom: 5%;
+}
+.form-create a
+{
+    color: black;
+}
+#dash-body #dash-body-second
+{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12,1,1,0.2);
+    overflow: auto;
+}
+#dash-body #dash-body-secon
+{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(12,1,1,0.2);
+    overflow: auto;
+}
+.content
+{
+    margin-top: 2%;
+}
+#dash-body-secon a
+{
+    text-decoration: none;
+    color: black;
+}
+#dash-body-secon #display-land
+{
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    background-color: white;
+}
+#display-land #display-land-second
+{
+    width: 45vw;
+}
+#display-land #display-land-first
+{
+    width: 28vw;
+}
+#display-land-first img
+{
+ width: 100%;   
+height: 300px;
+}
+#display-land-second
+{
+    display: flex;
+    align-items: center;
+}
+#display-land-second img
+{
+    float: right;
+}
+
